@@ -4,13 +4,23 @@
     font-family: Helvetica, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     gap: 32px;
+}
+
+a {
     font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 button {
@@ -150,5 +160,17 @@ h1.title {
 }
 
 .call-to-action-content div {
+    flex: 1;
+}
+
+#footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#header {
     flex: 1;
 }
