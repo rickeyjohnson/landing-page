@@ -1,1 +1,2 @@
 # landing-page
+basically just made a cookie cutter landing page for a generic website with generic placement, design aspects, and section divsions as any old boring website would be. This is thanks and following the ciriculum of The Odin Project.
